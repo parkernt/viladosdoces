@@ -1,0 +1,300 @@
+/* ==========================================================================
+   Loja — galeria, horários, formas de pagamento e mapa
+   ========================================================================== */
+
+.loja-hero {
+  padding-block: clamp(2rem, 1.5rem + 3vw, 4rem);
+}
+
+.loja-hero__inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+  gap: clamp(2rem, 1rem + 3vw, 4rem);
+  align-items: center;
+}
+
+.loja-hero__copy {
+  display: grid;
+  gap: var(--space-4);
+  justify-items: start;
+}
+
+.loja-hero__title {
+  font-size: clamp(2.2rem, 1.6rem + 2.8vw, 3.6rem);
+}
+
+.loja-hero__address {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+  font-size: var(--step-1);
+  line-height: 1.45;
+  color: var(--color-foreground-muted);
+}
+
+.loja-hero__address .icon {
+  flex: none;
+  width: 24px;
+  height: 24px;
+  margin-top: 0.15em;
+  color: var(--color-primary);
+}
+
+.loja-hero__address strong {
+  display: block;
+  color: var(--color-foreground);
+  font-weight: 650;
+}
+
+.loja-hero__media .photo {
+  border-radius: var(--arch);
+  box-shadow: var(--shadow-lg);
+}
+
+@media (max-width: 900px) {
+  .loja-hero__inner {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* --- Galeria ---------------------------------------------------------- */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-auto-rows: minmax(140px, auto);
+  gap: var(--space-4);
+}
+
+.gallery__item {
+  position: relative;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.gallery__item .photo {
+  height: 100%;
+  border-radius: inherit;
+}
+
+.gallery__item--wide {
+  grid-column: span 2;
+}
+
+.gallery__item--tall {
+  grid-row: span 2;
+}
+
+.gallery__caption {
+  position: absolute;
+  inset: auto 0 0 0;
+  padding: 1.75rem var(--space-4) var(--space-3);
+  background: linear-gradient(to top, rgba(35, 18, 11, 0.75), transparent);
+  color: #fffdf8;
+  font-size: var(--step--2);
+  line-height: 1.4;
+}
+
+@media (max-width: 900px) {
+  .gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .gallery__item--tall {
+    grid-row: span 1;
+  }
+}
+
+/* --- Horários --------------------------------------------------------- */
+.hours {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--step--1);
+}
+
+.hours caption {
+  text-align: left;
+  font-size: var(--step--2);
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-foreground-soft);
+  padding-bottom: var(--space-3);
+}
+
+.hours th,
+.hours td {
+  padding: 0.6rem 0;
+  border-bottom: 1px solid var(--color-border);
+  text-align: left;
+  font-weight: 400;
+}
+
+.hours th {
+  color: var(--color-foreground);
+  font-weight: 600;
+}
+
+.hours td {
+  text-align: right;
+  color: var(--color-foreground-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.hours tr:last-child th,
+.hours tr:last-child td {
+  border-bottom: 0;
+}
+
+.hours .is-today th,
+.hours .is-today td {
+  color: var(--color-primary);
+  font-weight: 650;
+}
+
+/* --- Informações ------------------------------------------------------ */
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+  gap: var(--space-5);
+}
+
+.info-card {
+  display: grid;
+  gap: var(--space-3);
+  align-content: start;
+  padding: var(--space-6);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background-color: var(--color-card);
+  box-shadow: var(--shadow-md);
+}
+
+.info-card h3 {
+  font-size: var(--step-1);
+}
+
+.info-card p,
+.info-card li {
+  font-size: var(--step--1);
+  line-height: 1.55;
+  color: var(--color-foreground-muted);
+}
+
+.info-card ul {
+  display: grid;
+  gap: 0.4rem;
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.info-card .icon--lg {
+  color: var(--color-primary);
+}
+
+/* --- Mapa grande ------------------------------------------------------ */
+.map-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.75fr);
+  gap: 0;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  background-color: var(--color-card);
+}
+
+.map-panel__map {
+  position: relative;
+  min-height: 320px;
+  background-color: var(--color-background-alt);
+}
+
+.map-panel__map img,
+.map-panel__map svg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.map-panel__info {
+  display: grid;
+  gap: var(--space-4);
+  align-content: center;
+  padding: clamp(1.5rem, 1rem + 2vw, 2.5rem);
+  border-left: 1px solid var(--color-border);
+}
+
+.map-panel__info h2 {
+  font-size: var(--step-2);
+}
+
+.map-panel__info p {
+  font-size: var(--step--1);
+  line-height: 1.55;
+  color: var(--color-foreground-muted);
+}
+
+.map-panel__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+@media (max-width: 900px) {
+  .map-panel {
+    grid-template-columns: 1fr;
+  }
+
+  .map-panel__info {
+    border-left: 0;
+    border-top: 1px solid var(--color-border);
+  }
+}
+
+/* --- Perguntas rápidas ------------------------------------------------ */
+.faq {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.faq details {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background-color: var(--color-card);
+  overflow: hidden;
+}
+
+.faq summary {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  min-height: 56px;
+  padding: var(--space-4) var(--space-5);
+  font-weight: 650;
+  font-size: var(--step-0);
+  cursor: pointer;
+  list-style: none;
+}
+
+.faq summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq summary::after {
+  content: "+";
+  margin-left: auto;
+  font-size: 1.25rem;
+  color: var(--color-primary);
+}
+
+.faq details[open] summary::after {
+  content: "−";
+}
+
+.faq p {
+  padding: 0 var(--space-5) var(--space-5);
+  font-size: var(--step--1);
+  line-height: 1.6;
+  color: var(--color-foreground-muted);
+  max-width: 72ch;
+}

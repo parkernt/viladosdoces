@@ -1,0 +1,22 @@
+{
+  "name": "vila-dos-doces-tools",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pipeline de desenvolvimento e QA do site da Vila dos Doces Confeitaria",
+  "type": "module",
+  "scripts": {
+    "serve": "node serve.mjs 8003",
+    "imagens": "node build-images.mjs",
+    "fontes": "node fetch-fonts.mjs",
+    "icones": "node build-icons.mjs",
+    "instagram": "node fetch-instagram.mjs",
+    "qa": "node qa.mjs --full",
+    "testes": "node --test test-order.mjs",
+    "check": "node check-assets.mjs"
+  },
+  "devDependencies": {
+    "axe-core": "4.14.0",
+    "puppeteer-core": "24.43.1",
+    "sharp": "0.34.5"
+  }
+}

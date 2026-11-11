@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<script>document.documentElement.classList.add("js")</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Página não encontrada — Vila dos Doces Confeitaria</title>
+<meta name="description" content="Essa página saiu da vitrine. Volte para o cardápio da Vila dos Doces ou fale com a confeitaria no WhatsApp.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#fffdf8">
+<link rel="icon" href="assets/img/brand/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/brand/apple-touch-icon.png">
+<link rel="stylesheet" href="assets/css/tokens.css">
+<link rel="stylesheet" href="assets/css/base.css">
+<link rel="stylesheet" href="assets/css/layout.css">
+<link rel="stylesheet" href="assets/css/components.css">
+<link rel="stylesheet" href="assets/css/pages/home.css">
+<script type="module" src="assets/js/main.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="brand" href="index.html" aria-label="Vila dos Doces Confeitaria, página inicial">
+      <img class="brand__mark" src="assets/img/brand/logo.svg" alt="" width="52" height="52">
+      <span class="brand__text">
+        <span class="brand__name">Vila dos Doces</span>
+        <span class="brand__sub">Confeitaria</span>
+      </span>
+    </a>
+    <nav class="nav" id="menu-principal" data-nav aria-label="Navegação principal">
+      <ul class="nav__list">
+        <li><a class="nav__link" href="index.html">Início</a></li>
+        <li><a class="nav__link" href="cardapio.html">Cardápio</a></li>
+        <li><a class="nav__link" href="encomendas.html">Encomendas</a></li>
+        <li><a class="nav__link" href="loja.html">A loja</a></li>
+      </ul>
+    </nav>
+    <div class="header__actions">
+      <a class="btn btn--whatsapp btn--sm" href="https://wa.me/5513992051188" target="_blank" rel="noopener">
+        <svg class="icon icon--solid" aria-hidden="true"><use href="assets/svg/icons.svg#whatsapp"/></svg>
+        WhatsApp
+      </a>
+    </div>
+  </div>
+</header>
+
+<main id="conteudo">
+  <section class="notfound">
+    <div class="container notfound__inner">
+      <p class="eyebrow eyebrow--brand">Erro 404</p>
+      <p class="notfound__code" aria-hidden="true">404</p>
+      <h1>Esse bolo já saiu da vitrine</h1>
+      <p class="lede">
+        A página que você procurou não existe (ou mudou de lugar). Mas o balcão
+        continua cheio: volte para o cardápio ou fale com a gente.
+      </p>
+      <div class="notfound__photo">
+        <div class="photo photo--1x1" data-foto="bolo-ferrero">
+          <picture>
+            <source type="image/avif" srcset="assets/img/products/bolo-ferrero-480.avif 480w">
+            <source type="image/webp" srcset="assets/img/products/bolo-ferrero-480.webp 480w">
+            <img src="assets/img/products/bolo-ferrero-480.jpg" width="630" height="481" loading="lazy" decoding="async"
+                 alt="Bolo confeitado com chantilly, chocolate ao leite e bombons">
+          </picture>
+        </div>
+      </div>
+      <div class="notfound__actions">
+        <a class="btn btn--primary" href="index.html">Voltar ao início</a>
+        <a class="btn btn--outline" href="cardapio.html">Ver o cardápio</a>
+        <a class="btn btn--whatsapp" href="https://wa.me/5513992051188" target="_blank" rel="noopener">
+          <svg class="icon icon--solid" aria-hidden="true"><use href="assets/svg/icons.svg#whatsapp"/></svg>
+          Chamar no WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer__bottom" style="margin-top:0;border-top:0;padding-top:0">
+      <p>© <span data-ano>2026</span> Vila dos Doces Confeitaria · R. Dr. Carvalho de Mendonça, 452 · Vila Belmiro, Santos/SP</p>
+      <p>Seg a sáb, 09h30 às 20h · (13) 3349-8988</p>
+    </div>
+  </div>
+</footer>
+
+<dialog data-lightbox aria-labelledby="lightbox-legenda" aria-modal="true">
+  <div class="lightbox">
+    <div class="lightbox__stage">
+      <button class="lightbox__btn lightbox__close" type="button" data-lightbox-close aria-label="Fechar imagem">
+        <svg class="icon" aria-hidden="true"><use href="assets/svg/icons.svg#close"/></svg>
+      </button>
+      <img data-lightbox-img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="">
+    </div>
+    <div class="lightbox__bar">
+      <p id="lightbox-legenda" data-lightbox-caption></p>
+    </div>
+  </div>
+</dialog>
+</body>
+</html>

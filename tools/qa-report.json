@@ -1,0 +1,518 @@
+{
+  "geradoEm": "2026-11-11T05:30:19.654Z",
+  "base": "http://localhost:8003",
+  "paginas": [
+    {
+      "pagina": "home",
+      "largura": 375,
+      "axe": [],
+      "layout": {
+        "overflowX": false,
+        "scrollW": 375,
+        "innerW": 375,
+        "gl": "on",
+        "canvases": 2,
+        "itens": 6,
+        "imagens": 14,
+        "semAlt": 0,
+        "altura": 10739,
+        "h1": 1
+      },
+      "console": {
+        "erros": [],
+        "avisos": [],
+        "falhas": [],
+        "respostas404": []
+      }
+    },
+    {
+      "pagina": "home",
+      "largura": 768,
+      "axe": [],
+      "layout": {
+        "overflowX": false,
+        "scrollW": 768,
+        "innerW": 768,
+        "gl": "on",
+        "canvases": 2,
+        "itens": 6,
+        "imagens": 14,
+        "semAlt": 0,
+        "altura": 8439,
+        "h1": 1
+      },
+      "console": {
+        "erros": [],
+        "avisos": [],
+        "falhas": [],
+        "respostas404": []
+      }
+    },
+    {
+      "pagina": "home",
+      "largura": 1024,
+      "axe": [],
+      "layout": {
+        "overflowX": false,
+        "scrollW": 1024,
+        "innerW": 1024,
+        "gl": "on",
+        "canvases": 2,
+        "itens": 6,
+        "imagens": 14,
+        "semAlt": 0,
+        "altura": 7503,
+        "h1": 1
+      },
+      "console": {
+        "erros": [],
+        "avisos": [],
+        "falhas": [],
+        "respostas404": []
+      }
+    },
+    {
+      "pagina": "home",
+      "largura": 1440,
+      "axe": [],
+      "layout": {
+        "overflowX": false,
+        "scrollW": 1440,
+        "innerW": 1440,
+        "gl": "on",
+        "canvases": 2,
+        "itens": 6,
+        "imagens": 14,
+        "semAlt": 0,
+        "altura": 6794,
+        "h1": 1
+      },
+      "console": {
+        "erros": [],
+        "avisos": [],
+        "falhas": [],
+        "respostas404": []
+      }
+    },
+    {
+      "pagina": "cardapio",
+      "largura": 375,
+      "axe": [],
+      "layout": {
+        "overflowX": false,
+        "scrollW": 375,
+        "innerW": 375,
+        "gl": null,
+        "canvases": 0,
+        "itens": 74,
+        "imagens": 18,
+        "semAlt": 0,
+        "altura": 16357,
+        "h1": 1
+      },
+      "console": {
+        "erros": [],
+        "avisos": [],
+        "falhas": [],
+        "respostas404": []
+      }
+    },
+    {
+      "pagina": "cardapio",
+      "largura": 768,
+      "axe": [],
+      "layout": {
+        "overflowX": false,
+        "scrollW": 768,
+        "innerW": 768,
+        "gl": null,
+        "canvases": 0,
+        "itens": 74,
+        "imagens": 18,
+        "semAlt": 0,
+        "altura": 15079,
+        "h1": 1
+      },
+      "console": {
+        "erros": [],
+        "avisos": [],
+        "falhas": [],
+        "respostas404": []
+      }
+    },
+    {
+      "pagina": "cardapio",
+      "largura": 1024,
+      "axe": [],
+      "layout": {
+        "overflowX": false,
+        "scrollW": 1024,
+        "innerW": 1024,
+        "gl": null,
+        "canvases": 0,
+        "itens": 74,
+        "imagens": 18,
+        "semAlt": 0,
+        "altura": 14682,
+        "h1": 1
+      },
+      "console": {
+        "erros": [],
+        "avisos": [],
+        "falhas": [],
+        "respostas404": []
+      }
+    },
+    {
+      "pagina": "cardapio",
+      "largura": 1440,
+      "axe": [],
+      "layout": {
+        "overflowX": false,
+        "scrollW": 1440,
+        "innerW": 1440,
+        "gl": null,
+        "canvases": 0,
+        "itens": 74,
+        "imagens": 18,
+        "semAlt": 0,
+        "altura": 9314,
+        "h1": 1
+      },
+      "console": {
+        "erros": [],
+        "avisos": [],
+        "falhas": [],
+        "respostas404": []
+      }
+    },
+    {
+      "pagina": "encomendas",
+      "largura": 375,
+      "axe": [],
+      "layout": {
+        "overflowX": false,
+        "scrollW": 375,
+        "innerW": 375,
+        "gl": "on",
+        "canvases": 1,
+        "itens": 0,
+        "imagens": 3,
+        "semAlt": 0,
+        "altura": 3426,
+        "h1": 1
+      },
+      "console": {
+        "erros": [],
+        "avisos": [],
+        "falhas": [],
+        "respostas404": []
+      }
+    },
+    {
+      "pagina": "encomendas",
+      "largura": 768,
+      "axe": [],
+      "layout": {
+        "overflowX": false,
+        "scrollW": 768,
+        "innerW": 768,
+        "gl": "on",
+        "canvases": 1,
+        "itens": 0,
+        "imagens": 3,
+        "semAlt": 0,
+        "altura": 2523,
+        "h1": 1
+      },
+      "console": {
+        "erros": [],
+        "avisos": [],
+        "falhas": [],
+        "respostas404": []
+      }
+    },
+    {
+      "pagina": "encomendas",
+      "largura": 1024,
+      "axe": [],
+      "layout": {
+        "overflowX": false,
+        "scrollW": 1024,
+        "innerW": 1024,
+        "gl": "on",
+        "canvases": 1,
+        "itens": 0,
+        "imagens": 3,
+        "semAlt": 0,
+        "altura": 2116,
+        "h1": 1
+      },
+      "console": {
+        "erros": [],
+        "avisos": [],
+        "falhas": [],
+        "respostas404": []
+      }
+    },
+    {
+      "pagina": "encomendas",
+      "largura": 1440,
+      "axe": [],
+      "layout": {
+        "overflowX": false,
+        "scrollW": 1440,
+        "innerW": 1440,
+        "gl": "on",
+        "canvases": 1,
+        "itens": 0,
+        "imagens": 3,
+        "semAlt": 0,
+        "altura": 1964,
+        "h1": 1
+      },
+      "console": {
+        "erros": [],
+        "avisos": [],
+        "falhas": [],
+        "respostas404": []
+      }
+    },
+    {
+      "pagina": "loja",
+      "largura": 375,
+      "axe": [],
+      "layout": {
+        "overflowX": false,
+        "scrollW": 375,
+        "innerW": 375,
+        "gl": "on",
+        "canvases": 1,
+        "itens": 0,
+        "imagens": 10,
+        "semAlt": 0,
+        "altura": 6311,
+        "h1": 1
+      },
+      "console": {
+        "erros": [],
+        "avisos": [],
+        "falhas": [],
+        "respostas404": []
+      }
+    },
+    {
+      "pagina": "loja",
+      "largura": 768,
+      "axe": [],
+      "layout": {
+        "overflowX": false,
+        "scrollW": 768,
+        "innerW": 768,
+        "gl": "on",
+        "canvases": 1,
+        "itens": 0,
+        "imagens": 10,
+        "semAlt": 0,
+        "altura": 6986,
+        "h1": 1
+      },
+      "console": {
+        "erros": [],
+        "avisos": [],
+        "falhas": [],
+        "respostas404": []
+      }
+    },
+    {
+      "pagina": "loja",
+      "largura": 1024,
+      "axe": [],
+      "layout": {
+        "overflowX": false,
+        "scrollW": 1024,
+        "innerW": 1024,
+        "gl": "on",
+        "canvases": 1,
+        "itens": 0,
+        "imagens": 10,
+        "semAlt": 0,
+        "altura": 4370,
+        "h1": 1
+      },
+      "console": {
+        "erros": [],
+        "avisos": [],
+        "falhas": [],
+        "respostas404": []
+      }
+    },
+    {
+      "pagina": "loja",
+      "largura": 1440,
+      "axe": [],
+      "layout": {
+        "overflowX": false,
+        "scrollW": 1440,
+        "innerW": 1440,
+        "gl": "on",
+        "canvases": 1,
+        "itens": 0,
+        "imagens": 10,
+        "semAlt": 0,
+        "altura": 4913,
+        "h1": 1
+      },
+      "console": {
+        "erros": [],
+        "avisos": [],
+        "falhas": [],
+        "respostas404": []
+      }
+    },
+    {
+      "pagina": "404",
+      "largura": 375,
+      "axe": [],
+      "layout": {
+        "overflowX": false,
+        "scrollW": 375,
+        "innerW": 375,
+        "gl": null,
+        "canvases": 0,
+        "itens": 0,
+        "imagens": 3,
+        "semAlt": 0,
+        "altura": 1125,
+        "h1": 1
+      },
+      "console": {
+        "erros": [],
+        "avisos": [],
+        "falhas": [],
+        "respostas404": []
+      }
+    },
+    {
+      "pagina": "404",
+      "largura": 768,
+      "axe": [],
+      "layout": {
+        "overflowX": false,
+        "scrollW": 768,
+        "innerW": 768,
+        "gl": null,
+        "canvases": 0,
+        "itens": 0,
+        "imagens": 3,
+        "semAlt": 0,
+        "altura": 1105,
+        "h1": 1
+      },
+      "console": {
+        "erros": [],
+        "avisos": [],
+        "falhas": [],
+        "respostas404": []
+      }
+    },
+    {
+      "pagina": "404",
+      "largura": 1024,
+      "axe": [],
+      "layout": {
+        "overflowX": false,
+        "scrollW": 1024,
+        "innerW": 1024,
+        "gl": null,
+        "canvases": 0,
+        "itens": 0,
+        "imagens": 3,
+        "semAlt": 0,
+        "altura": 1173,
+        "h1": 1
+      },
+      "console": {
+        "erros": [],
+        "avisos": [],
+        "falhas": [],
+        "respostas404": []
+      }
+    },
+    {
+      "pagina": "404",
+      "largura": 1440,
+      "axe": [],
+      "layout": {
+        "overflowX": false,
+        "scrollW": 1440,
+        "innerW": 1440,
+        "gl": null,
+        "canvases": 0,
+        "itens": 0,
+        "imagens": 3,
+        "semAlt": 0,
+        "altura": 1219,
+        "h1": 1
+      },
+      "console": {
+        "erros": [],
+        "avisos": [],
+        "falhas": [],
+        "respostas404": []
+      }
+    },
+    {
+      "pagina": "home",
+      "largura": 1440,
+      "vitals": "coletado",
+      "console": {
+        "erros": [],
+        "avisos": [],
+        "falhas": [],
+        "respostas404": []
+      }
+    }
+  ],
+  "resumo": {
+    "combinacoes": 20,
+    "violacoesAxe": 0,
+    "violacoesGraves": 0,
+    "errosConsole": 0,
+    "respostas404": 0,
+    "overflowHorizontal": 0,
+    "vitals": {
+      "lcp": 164,
+      "cls": 0.040251988155328364,
+      "ttfb": 0.7999999970197678
+    }
+  },
+  "vitals": {
+    "lcp": 164,
+    "cls": 0.040251988155328364,
+    "ttfb": 0.7999999970197678
+  },
+  "fluxo": {
+    "etapas": [
+      "passo 1 → 2",
+      "passo 2 → 3",
+      "passo 3 preenchido"
+    ],
+    "total": "R$ 314,00",
+    "wa": "https://wa.me/5513992051188",
+    "erro": null,
+    "validacaoBarraDataPassada": false,
+    "console": {
+      "erros": [],
+      "avisos": [],
+      "falhas": [],
+      "respostas404": []
+    }
+  },
+  "semGl": {
+    "gl": "off",
+    "canvasVisiveis": 0,
+    "heroVisivel": true,
+    "conteudoVisivel": false
+  }
+}

@@ -1,0 +1,18 @@
+node_modules/
+tools/.ig-cache.json
+
+# originais baixados: ficam fora do git e do deploy
+assets/_raw/
+
+# artefatos de QA e rascunhos de desenvolvimento
+tools/shots/
+tools/_research/
+tools/_*.mjs
+tools/_*.json
+tools/_*.txt
+tools/_*.jpg
+tools/_*.svg
+
+# sistema
+.DS_Store
+Thumbs.db

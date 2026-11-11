@@ -1,0 +1,124 @@
+/* ==========================================================================
+   Tokens — Vila dos Doces Confeitaria
+   Paleta de vitrine: cacau, caramelo e creme, com o turquesa do selo da marca
+   como único acento frio. Todos os contrastes foram conferidos contra o fundo
+   em que o token é usado (WCAG AA, 4.5:1 para texto normal).
+   ========================================================================== */
+
+:root {
+  /* --- Cor: superfícies ------------------------------------------------ */
+  --color-background: #fffdf8;      /* creme baunilha */
+  --color-background-alt: #fbf4e8;  /* seções alternadas */
+  --color-card: #ffffff;
+  --color-border: #f3e5ce;
+  --color-border-strong: #e3cba6;
+
+  /* --- Cor: texto ------------------------------------------------------ */
+  --color-foreground: #23120b;        /* cacau profundo — 15.8:1 no creme */
+  --color-foreground-muted: #5e453b;  /* 7.6:1 no creme */
+  --color-foreground-soft: #80675c;   /* 5.1:1 — legendas e metadados */
+
+  /* --- Cor: ação ------------------------------------------------------- */
+  --color-primary: #92400e;        /* caramelo nobre — 7.3:1 no creme */
+  --color-primary-hover: #78350f;
+  --color-primary-soft: #fdf0dd;
+  --color-on-primary: #ffffff;
+
+  --color-accent: #a62639;         /* framboesa — selos e destaques */
+  --color-on-accent: #ffffff;
+  --color-accent-soft: #fbe9ec;
+
+  /* --- Cor: marca ------------------------------------------------------ */
+  --color-brand: #0b7c93;          /* turquesa do selo, legível sobre creme */
+  --color-brand-bright: #12b8d8;   /* preenchimento do selo / detalhes */
+  --color-brand-soft: #e6f7fb;
+
+  /* --- Cor: WhatsApp --------------------------------------------------- */
+  --color-whatsapp: #0f7a5a;       /* verde escuro: 4.9:1 com texto branco */
+  --color-whatsapp-hover: #0b6349;
+  --color-whatsapp-bright: #25d366;
+
+  /* --- Cor: sobre fundo escuro ---------------------------------------- */
+  --color-dark: #23120b;
+  --color-dark-soft: #3a1f14;
+  --color-on-dark: #fbf4e8;
+  --color-on-dark-muted: #d8c3ac;
+  --color-border-dark: #54302255;
+
+  /* --- Foco ------------------------------------------------------------ */
+  --color-ring: #92400e;
+  --color-ring-on-dark: #f0c68a;
+
+  /* --- Tipografia ------------------------------------------------------ */
+  --font-display: "Playfair Display", "Iowan Old Style", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-script: "Great Vibes", "Playfair Display", cursive;
+
+  /* Escala modular fluida (1.25) */
+  --step--2: clamp(0.6875rem, 0.67rem + 0.08vw, 0.75rem);
+  --step--1: clamp(0.8125rem, 0.79rem + 0.12vw, 0.875rem);
+  --step-0: clamp(1rem, 0.96rem + 0.2vw, 1.125rem);
+  --step-1: clamp(1.1875rem, 1.11rem + 0.36vw, 1.4375rem);
+  --step-2: clamp(1.4375rem, 1.31rem + 0.6vw, 1.875rem);
+  --step-3: clamp(1.75rem, 1.53rem + 1vw, 2.5rem);
+  --step-4: clamp(2.125rem, 1.75rem + 1.7vw, 3.25rem);
+  --step-5: clamp(2.5rem, 1.96rem + 2.4vw, 4.25rem);
+
+  /* --- Espaçamento: base 8px ------------------------------------------ */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-7: 1.75rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+
+  /* Ritmo vertical das seções */
+  --section-py: clamp(3.5rem, 2.5rem + 4vw, 7rem);
+  --container: 1240px;
+  --gutter: clamp(1.25rem, 0.6rem + 2.4vw, 3rem);
+
+  /* --- Forma e elevação ------------------------------------------------ */
+  --radius-xs: 6px;
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 36px;
+  --radius-pill: 9999px;
+  --arch: 200px 200px var(--radius-md) var(--radius-md);
+
+  --shadow-sm: 0 2px 8px -2px rgba(35, 18, 11, 0.06);
+  --shadow-md: 0 10px 30px -10px rgba(35, 18, 11, 0.1);
+  --shadow-lg: 0 24px 48px -18px rgba(35, 18, 11, 0.18);
+  --shadow-glow: 0 18px 40px -16px rgba(146, 64, 14, 0.35);
+
+  /* --- Movimento ------------------------------------------------------- */
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-fast: 150ms var(--ease-in-out);
+  --transition-smooth: 320ms var(--ease);
+
+  /* --- Camadas --------------------------------------------------------- */
+  --z-base: 1;
+  --z-sticky: 100;
+  --z-header: 200;
+  --z-overlay: 300;
+  --z-dialog: 400;
+
+  /* --- Alvos de toque -------------------------------------------------- */
+  --tap: 44px;
+  --header-h: 76px;
+}
+
+@media (max-width: 640px) {
+  :root {
+    --header-h: 64px;
+    --arch: 140px 140px var(--radius-md) var(--radius-md);
+  }
+}

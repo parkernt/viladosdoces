@@ -1,0 +1,1079 @@
+/* ==========================================================================
+   Componentes — botões, selos, chips, fotos, cards, campos e diálogos
+   ========================================================================== */
+
+/* --- Ícones ----------------------------------------------------------- */
+.icon {
+  width: 1.15em;
+  height: 1.15em;
+  flex: none;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.icon--sm {
+  width: 1em;
+  height: 1em;
+}
+
+.icon--lg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+/* Ícones preenchidos (marca, WhatsApp) */
+.icon--solid {
+  fill: currentColor;
+  stroke: none;
+}
+
+/* --- Botões ----------------------------------------------------------- */
+.btn {
+  --btn-bg: var(--color-primary);
+  --btn-fg: var(--color-on-primary);
+  --btn-border: transparent;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  min-height: 48px;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid var(--btn-border);
+  border-radius: var(--radius-pill);
+  background-color: var(--btn-bg);
+  color: var(--btn-fg);
+  font-family: var(--font-sans);
+  font-size: var(--step--1);
+  font-weight: 650;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color var(--transition-fast), box-shadow var(--transition-fast),
+    translate var(--transition-fast), border-color var(--transition-fast), color var(--transition-fast);
+  box-shadow: var(--shadow-sm);
+}
+
+.btn:hover {
+  background-color: var(--color-primary-hover);
+  box-shadow: var(--shadow-md);
+  translate: 0 -1px;
+}
+
+.btn:active {
+  translate: 0 0;
+  box-shadow: var(--shadow-sm);
+}
+
+.btn .icon {
+  width: 18px;
+  height: 18px;
+}
+
+.btn--lg {
+  min-height: 56px;
+  padding-inline: 1.9rem;
+  font-size: var(--step-0);
+}
+
+.btn--sm {
+  min-height: var(--tap);
+  padding: 0.5rem 1rem;
+  font-size: var(--step--1);
+}
+
+.btn--block {
+  width: 100%;
+}
+
+.btn--outline {
+  --btn-bg: transparent;
+  --btn-fg: var(--color-foreground);
+  --btn-border: var(--color-border-strong);
+  box-shadow: none;
+}
+
+.btn--outline:hover {
+  background-color: var(--color-primary-soft);
+  border-color: var(--color-primary);
+  color: var(--color-primary-hover);
+}
+
+.btn--ghost {
+  --btn-bg: transparent;
+  --btn-fg: var(--color-primary);
+  --btn-border: transparent;
+  box-shadow: none;
+  padding-inline: 0.5rem;
+  text-decoration: underline;
+  text-underline-offset: 0.25em;
+  text-decoration-thickness: 1px;
+}
+
+.btn--ghost:hover {
+  background-color: transparent;
+  color: var(--color-primary-hover);
+  translate: 0 0;
+  box-shadow: none;
+}
+
+.btn--light {
+  --btn-bg: var(--color-on-dark);
+  --btn-fg: var(--color-dark);
+  box-shadow: none;
+}
+
+.btn--light:hover {
+  background-color: #ffffff;
+}
+
+.btn--outline-light {
+  --btn-bg: transparent;
+  --btn-fg: var(--color-on-dark);
+  --btn-border: #ffffff40;
+  box-shadow: none;
+}
+
+.btn--outline-light:hover {
+  background-color: #ffffff1a;
+  border-color: #f0c68a;
+  color: #f0c68a;
+}
+
+/* WhatsApp: fundo verde escuro para garantir 4.5:1 com texto branco */
+.btn--whatsapp {
+  --btn-bg: var(--color-whatsapp);
+  --btn-fg: #ffffff;
+  box-shadow: 0 10px 24px -12px rgba(15, 122, 90, 0.7);
+}
+
+.btn--whatsapp:hover {
+  background-color: var(--color-whatsapp-hover);
+}
+
+.btn--whatsapp .icon {
+  fill: currentColor;
+  stroke: none;
+}
+
+/* Pulso discreto no CTA principal do WhatsApp (desligado em reduced motion) */
+.btn--pulse {
+  position: relative;
+}
+
+.btn--pulse::after {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  border: 1px solid var(--color-whatsapp-bright);
+  opacity: 0;
+  animation: pulse-ring 3.6s var(--ease-in-out) 1.4s infinite;
+  pointer-events: none;
+}
+
+@keyframes pulse-ring {
+  0% { opacity: 0.55; scale: 1; }
+  55% { opacity: 0; scale: 1.06; }
+  100% { opacity: 0; scale: 1.06; }
+}
+
+/* --- Selos e etiquetas ------------------------------------------------ */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  padding: 0.3rem 0.7rem;
+  border-radius: var(--radius-pill);
+  background-color: var(--color-accent-soft);
+  color: var(--color-accent);
+  font-family: var(--font-sans);
+  font-size: var(--step--2);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 1.3;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.badge--brand {
+  background-color: var(--color-brand-soft);
+  color: #075e70;
+}
+
+.badge--primary {
+  background-color: var(--color-primary-soft);
+  color: var(--color-primary);
+}
+
+.badge--neutral {
+  background-color: var(--color-background-alt);
+  color: var(--color-foreground-muted);
+}
+
+.badge--on-photo {
+  background-color: color-mix(in srgb, var(--color-background) 94%, transparent);
+  color: var(--color-foreground);
+  box-shadow: var(--shadow-sm);
+  backdrop-filter: blur(6px);
+}
+
+/* Selo circular da marca — texto escuro sobre o turquesa (contraste AA) */
+.seal {
+  display: grid;
+  place-content: center;
+  gap: 0.1rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: var(--color-brand-bright);
+  color: #06323c;
+  text-align: center;
+  box-shadow: var(--shadow-md);
+}
+
+.seal svg {
+  width: 28px;
+  height: 28px;
+  margin-inline: auto;
+}
+
+.seal__label {
+  font-size: 0.5rem;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+/* --- Chips de filtro -------------------------------------------------- */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  min-height: var(--tap);
+  padding: 0.5rem 1.05rem;
+  border: 1px solid var(--color-border-strong);
+  border-radius: var(--radius-pill);
+  background-color: var(--color-card);
+  color: var(--color-foreground-muted);
+  font-size: var(--step--1);
+  font-weight: 600;
+  line-height: 1.2;
+  white-space: nowrap;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color var(--transition-fast), color var(--transition-fast),
+    border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.chip:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary-hover);
+  background-color: var(--color-primary-soft);
+}
+
+.chip[aria-pressed="true"],
+.chip.is-active {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: var(--color-on-primary);
+  box-shadow: var(--shadow-sm);
+}
+
+.chip__count {
+  font-variant-numeric: tabular-nums;
+  font-size: var(--step--2);
+  opacity: 1;
+  font-weight: 700;
+}
+
+/* --- Foto com transição sem CLS -------------------------------------- */
+.photo {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: var(--radius-md);
+  background-color: var(--color-background-alt);
+  background-position: center;
+  background-size: cover;
+  isolation: isolate;
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: scale 700ms var(--ease), filter 700ms var(--ease);
+}
+
+/* O <picture> precisa ocupar a caixa toda para o img herdar a altura */
+.photo picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.photo--arch {
+  border-radius: var(--arch);
+}
+
+.photo--round {
+  border-radius: var(--radius-pill);
+}
+
+.photo--4x3 {
+  aspect-ratio: 4 / 3;
+}
+
+.photo--3x2 {
+  aspect-ratio: 3 / 2;
+}
+
+.photo--1x1 {
+  aspect-ratio: 1;
+}
+
+.photo--4x5 {
+  aspect-ratio: 4 / 5;
+}
+
+.photo--tall {
+  aspect-ratio: 3 / 4;
+}
+
+.photo img[data-lqip] {
+  filter: blur(0);
+}
+
+/* Zoom no hover de cards e no clique */
+.photo--zoom {
+  cursor: zoom-in;
+}
+
+.photo--zoom:hover img,
+a:hover > .photo img {
+  scale: 1.045;
+}
+
+.photo__caption {
+  position: absolute;
+  inset: auto 0 0 0;
+  padding: 2.5rem 1rem 0.9rem;
+  background: linear-gradient(to top, rgba(35, 18, 11, 0.78), transparent);
+  color: #fffdf8;
+  font-size: var(--step--1);
+  line-height: 1.4;
+}
+
+/* --- Cards ------------------------------------------------------------ */
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  padding: var(--space-6);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background-color: var(--color-card);
+  box-shadow: var(--shadow-md);
+}
+
+.card--flat {
+  box-shadow: none;
+}
+
+.card--dark {
+  background-color: var(--color-dark-soft);
+  border-color: var(--color-border-dark);
+  color: var(--color-on-dark);
+}
+
+.product-card {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background-color: var(--color-card);
+  box-shadow: var(--shadow-md);
+  overflow: hidden;
+  transition: translate var(--transition-smooth), box-shadow var(--transition-smooth),
+    border-color var(--transition-smooth);
+}
+
+.product-card:hover {
+  translate: 0 -4px;
+  box-shadow: var(--shadow-lg);
+  border-color: var(--color-border-strong);
+}
+
+.product-card__media {
+  position: relative;
+  display: block;
+}
+
+.product-card__media .badge {
+  position: absolute;
+  top: var(--space-3);
+  left: var(--space-3);
+  z-index: 2;
+}
+
+.product-card__body {
+  display: grid;
+  gap: var(--space-3);
+  align-content: start;
+  padding: var(--space-5) var(--space-5) var(--space-6);
+}
+
+.product-card__title {
+  font-family: var(--font-display);
+  font-size: var(--step-1);
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+.product-card__desc {
+  font-size: var(--step--1);
+  line-height: 1.55;
+  color: var(--color-foreground-muted);
+}
+
+.product-card__foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  margin-top: auto;
+  padding-top: var(--space-2);
+}
+
+.product-card__price {
+  display: grid;
+  gap: 0.1rem;
+  font-size: var(--step--1);
+  color: var(--color-foreground-soft);
+}
+
+.product-card__price .price {
+  font-size: var(--step-1);
+}
+
+/* --- Estatísticas ----------------------------------------------------- */
+.stat {
+  display: grid;
+  gap: 0.15rem;
+}
+
+.stat__value {
+  font-family: var(--font-display);
+  font-size: var(--step-3);
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: var(--color-primary);
+}
+
+.stat__label {
+  font-size: var(--step--1);
+  line-height: 1.4;
+  color: var(--color-foreground-muted);
+}
+
+.on-dark .stat__value {
+  color: #f0c68a;
+}
+
+.on-dark .stat__label {
+  color: var(--color-on-dark-muted);
+}
+
+/* --- Formulários ------------------------------------------------------ */
+.field {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.field__label {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  font-size: var(--step--1);
+  font-weight: 650;
+  color: var(--color-foreground);
+}
+
+.field__optional {
+  font-weight: 500;
+  color: var(--color-foreground-soft);
+}
+
+.field__hint {
+  font-size: var(--step--2);
+  line-height: 1.45;
+  color: var(--color-foreground-soft);
+}
+
+.field__error {
+  display: flex;
+  gap: 0.35rem;
+  font-size: var(--step--1);
+  font-weight: 600;
+  color: #8f1d2c;
+}
+
+.field__error:empty {
+  display: none;
+}
+
+.field__error .icon {
+  width: 15px;
+  height: 15px;
+  margin-top: 0.15em;
+}
+
+.input,
+.select,
+.textarea {
+  width: 100%;
+  min-width: 0;
+  min-height: 48px;
+  padding: 0.7rem 0.95rem;
+  border: 1px solid var(--color-border-strong);
+  border-radius: var(--radius-sm);
+  background-color: var(--color-card);
+  color: var(--color-foreground);
+  font-size: var(--step-0);
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.input::placeholder,
+.textarea::placeholder {
+  color: #9b8478;
+}
+
+.input:hover,
+.select:hover,
+.textarea:hover {
+  border-color: var(--color-primary);
+}
+
+.input:focus-visible,
+.select:focus-visible,
+.textarea:focus-visible {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-primary) 22%, transparent);
+}
+
+.textarea {
+  min-height: 96px;
+  resize: vertical;
+  line-height: 1.5;
+}
+
+.input[aria-invalid="true"],
+.select[aria-invalid="true"],
+.textarea[aria-invalid="true"] {
+  border-color: #b3261e;
+  background-color: #fdf6f5;
+}
+
+.select {
+  appearance: none;
+  padding-right: 2.5rem;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%235E453B' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.8rem center;
+  background-size: 18px;
+}
+
+/* Busca com ícone */
+.search {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search .icon {
+  position: absolute;
+  left: 0.9rem;
+  width: 18px;
+  height: 18px;
+  color: var(--color-foreground-soft);
+  pointer-events: none;
+}
+
+.search .input {
+  padding-left: 2.6rem;
+}
+
+.search__clear {
+  position: absolute;
+  right: 0.35rem;
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  color: var(--color-foreground-muted);
+}
+
+.search__clear:hover {
+  background-color: var(--color-background-alt);
+  color: var(--color-foreground);
+}
+
+.search__clear[hidden] {
+  display: none;
+}
+
+/* --- Opções em cartão (radio/checkbox) -------------------------------- */
+.option-grid {
+  display: grid;
+  gap: var(--space-3);
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 210px), 1fr));
+}
+
+.option {
+  position: relative;
+  display: grid;
+  gap: 0.3rem;
+  padding: var(--space-4) var(--space-5);
+  border: 1px solid var(--color-border-strong);
+  border-radius: var(--radius-md);
+  background-color: var(--color-card);
+  cursor: pointer;
+  transition: border-color var(--transition-fast), background-color var(--transition-fast),
+    box-shadow var(--transition-fast), translate var(--transition-fast);
+}
+
+.option:hover {
+  border-color: var(--color-primary);
+  translate: 0 -2px;
+  box-shadow: var(--shadow-sm);
+}
+
+.option input {
+  position: absolute;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+  pointer-events: none;
+}
+
+.option__title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 650;
+  font-size: var(--step-0);
+  color: var(--color-foreground);
+}
+
+.option__meta {
+  font-size: var(--step--1);
+  line-height: 1.45;
+  color: var(--color-foreground-muted);
+}
+
+.option__price {
+  font-size: var(--step--1);
+  font-weight: 650;
+  color: var(--color-primary);
+}
+
+.option:has(input:checked) {
+  border-color: var(--color-primary);
+  background-color: var(--color-primary-soft);
+  box-shadow: inset 0 0 0 1px var(--color-primary);
+}
+
+.option:has(input:focus-visible) {
+  outline: 2px solid var(--color-ring);
+  outline-offset: 2px;
+}
+
+.option:has(input:checked) .option__title::before {
+  content: "";
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+  flex: none;
+}
+
+/* --- Diálogo / lightbox ---------------------------------------------- */
+dialog {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--color-on-dark);
+  max-width: min(1100px, 94vw);
+  max-height: 92vh;
+}
+
+dialog::backdrop {
+  background-color: rgba(20, 10, 6, 0.86);
+  backdrop-filter: blur(6px);
+}
+
+.lightbox {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.lightbox__stage {
+  position: relative;
+  display: grid;
+  place-items: center;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background-color: #140a06;
+}
+
+.lightbox__stage img {
+  max-height: 74vh;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.lightbox__bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  font-size: var(--step--1);
+  color: var(--color-on-dark-muted);
+}
+
+.lightbox__bar p {
+  max-width: 60ch;
+}
+
+.lightbox__nav {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.lightbox__btn {
+  display: grid;
+  place-items: center;
+  width: var(--tap);
+  height: var(--tap);
+  border: 1px solid #ffffff30;
+  border-radius: 50%;
+  color: var(--color-on-dark);
+  background-color: #ffffff14;
+  transition: background-color var(--transition-fast);
+}
+
+.lightbox__btn:hover {
+  background-color: #ffffff2a;
+}
+
+.lightbox__close {
+  position: absolute;
+  top: var(--space-3);
+  right: var(--space-3);
+  z-index: 2;
+  background-color: rgba(20, 10, 6, 0.6);
+}
+
+/* --- Avisos ----------------------------------------------------------- */
+.notice {
+  display: flex;
+  gap: 0.6rem;
+  padding: var(--space-4);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+  background-color: var(--color-background-alt);
+  font-size: var(--step--1);
+  line-height: 1.5;
+  color: var(--color-foreground-muted);
+}
+
+.notice .icon {
+  width: 18px;
+  height: 18px;
+  margin-top: 0.1em;
+  color: var(--color-primary);
+}
+
+.notice--brand {
+  background-color: var(--color-brand-soft);
+  border-color: #bfe8f1;
+}
+
+/* --- Cabeçalho de página interna ------------------------------------- */
+.page-hero {
+  position: relative;
+  padding-block: clamp(2.5rem, 1.8rem + 3vw, 4.5rem) clamp(2rem, 1.5rem + 2vw, 3.5rem);
+  background-color: var(--color-background-alt);
+  border-bottom: 1px solid var(--color-border);
+  overflow: hidden;
+}
+
+.page-hero::after {
+  content: "";
+  position: absolute;
+  inset: auto -6% -60% auto;
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(18, 184, 216, 0.13), transparent 65%);
+  pointer-events: none;
+}
+
+.page-hero__inner {
+  position: relative;
+  display: grid;
+  gap: var(--space-4);
+  max-width: 62ch;
+}
+
+.page-hero__title {
+  font-size: clamp(2.2rem, 1.6rem + 2.6vw, 3.5rem);
+  letter-spacing: -0.025em;
+}
+
+.page-hero__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-6);
+  margin: var(--space-2) 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: var(--step--1);
+  color: var(--color-foreground-muted);
+}
+
+.page-hero__meta li {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.page-hero__meta .icon {
+  width: 17px;
+  height: 17px;
+  color: var(--color-primary);
+}
+
+/* --- Checkbox em cartão ---------------------------------------------- */
+.check {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: 0.7rem;
+  align-items: center;
+  min-height: var(--tap);
+  padding: 0.65rem 0.85rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background-color: var(--color-card);
+  cursor: pointer;
+  transition: border-color var(--transition-fast), background-color var(--transition-fast);
+}
+
+.check:hover {
+  border-color: var(--color-border-strong);
+  background-color: var(--color-background-alt);
+}
+
+.check input {
+  position: absolute;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+  pointer-events: none;
+}
+
+.check__box {
+  display: grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  border: 1.5px solid var(--color-border-strong);
+  border-radius: 6px;
+  background-color: var(--color-card);
+  color: transparent;
+  transition: background-color var(--transition-fast), border-color var(--transition-fast),
+    color var(--transition-fast);
+}
+
+.check__box .icon {
+  width: 13px;
+  height: 13px;
+  stroke-width: 3;
+}
+
+.check__text {
+  font-size: var(--step--1);
+  line-height: 1.4;
+  color: var(--color-foreground);
+}
+
+.check__text small {
+  display: block;
+  color: var(--color-foreground-soft);
+  font-size: var(--step--2);
+}
+
+.check__price {
+  font-size: var(--step--1);
+  font-weight: 650;
+  font-variant-numeric: tabular-nums;
+  color: var(--color-primary);
+}
+
+.check:has(input:checked) {
+  border-color: var(--color-primary);
+  background-color: var(--color-primary-soft);
+}
+
+.check:has(input:checked) .check__box {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: var(--color-on-primary);
+}
+
+.check:has(input:focus-visible) {
+  outline: 2px solid var(--color-ring);
+  outline-offset: 2px;
+}
+
+/* --- Calda escorrendo sobre a foto (WebGL) --------------------------- */
+.photo[data-drip] {
+  position: relative;
+}
+
+.photo[data-drip] > canvas {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+/* --- Revelação no scroll --------------------------------------------- */
+/* Só esconde quando o JS está ativo (.js no <html>), para nunca sumir conteúdo. */
+.js [data-reveal] {
+  opacity: 0;
+  translate: 0 18px;
+  transition: opacity 700ms var(--ease), translate 700ms var(--ease);
+}
+
+.js [data-reveal].is-visible {
+  opacity: 1;
+  translate: 0 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .js [data-reveal] {
+    opacity: 1;
+    translate: none;
+  }
+}
+
+.badge--accent {
+  background-color: var(--color-accent-soft);
+  color: var(--color-accent);
+}
+
+/* --- Divisor com ornamento ------------------------------------------- */
+.ornament {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-3);
+  color: var(--color-border-strong);
+}
+
+.ornament::before,
+.ornament::after {
+  content: "";
+  width: min(90px, 18vw);
+  height: 1px;
+  background-color: currentColor;
+}
+
+.ornament svg {
+  width: 18px;
+  height: 18px;
+}
+
+/* --- Passos (funil) -------------------------------------------------- */
+.steps {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: step;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.6rem 0;
+  border-top: 2px solid var(--color-border-strong);
+  font-size: var(--step--1);
+  font-weight: 600;
+  color: var(--color-foreground-soft);
+}
+
+.step::before {
+  counter-increment: step;
+  content: counter(step);
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  flex: none;
+  border-radius: 50%;
+  border: 1px solid currentColor;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.step[aria-current="step"] {
+  border-top-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.step[data-complete="true"] {
+  border-top-color: var(--color-primary);
+  color: var(--color-foreground);
+}
+
+.step[data-complete="true"]::before {
+  content: "✓";
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: var(--color-on-primary);
+}
+
+@media (max-width: 560px) {
+  .steps {
+    grid-template-columns: 1fr;
+  }
+
+  .step {
+    border-top: 0;
+    border-left: 2px solid var(--color-border-strong);
+    padding: 0.35rem 0 0.35rem 0.75rem;
+  }
+
+  .step[aria-current="step"],
+  .step[data-complete="true"] {
+    border-left-color: var(--color-primary);
+  }
+}

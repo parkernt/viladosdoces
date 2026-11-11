@@ -1,0 +1,863 @@
+{
+  "hero-camadas": {
+    "folder": "hero",
+    "widths": [
+      640,
+      1024,
+      1600,
+      2400
+    ],
+    "ratio": 1.6257,
+    "w": 2393,
+    "h": 1472,
+    "alt": "Fatia alta de bolo de chocolate em camadas, com brigadeiro, morangos e raspas de chocolate, em prato preto",
+    "lqip": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAABwAwCdASoYAA8APu1iqU2ppaQiMAgBMB2JZgCdAA8/epIaxoAA/KGzGELg83s8v/HZpOkRBtF4tPvm8HK7ViW7qhdYTYQXg4Xe8GMiPJMGoI/ww+/RYgAA",
+    "files": [
+      {
+        "file": "hero/hero-camadas-640.avif",
+        "w": 640,
+        "ext": "avif",
+        "bytes": 26354
+      },
+      {
+        "file": "hero/hero-camadas-640.webp",
+        "w": 640,
+        "ext": "webp",
+        "bytes": 26524
+      },
+      {
+        "file": "hero/hero-camadas-640.jpg",
+        "w": 640,
+        "ext": "jpg",
+        "bytes": 36281
+      },
+      {
+        "file": "hero/hero-camadas-1024.avif",
+        "w": 1024,
+        "ext": "avif",
+        "bytes": 51802
+      },
+      {
+        "file": "hero/hero-camadas-1024.webp",
+        "w": 1024,
+        "ext": "webp",
+        "bytes": 55156
+      },
+      {
+        "file": "hero/hero-camadas-1024.jpg",
+        "w": 1024,
+        "ext": "jpg",
+        "bytes": 77403
+      },
+      {
+        "file": "hero/hero-camadas-1600.avif",
+        "w": 1600,
+        "ext": "avif",
+        "bytes": 94561
+      },
+      {
+        "file": "hero/hero-camadas-1600.webp",
+        "w": 1600,
+        "ext": "webp",
+        "bytes": 107014
+      },
+      {
+        "file": "hero/hero-camadas-1600.jpg",
+        "w": 1600,
+        "ext": "jpg",
+        "bytes": 157092
+      }
+    ]
+  },
+  "bolo-ferrero": {
+    "folder": "products",
+    "widths": [
+      480,
+      960,
+      1600
+    ],
+    "ratio": 1.3098,
+    "w": 630,
+    "h": 481,
+    "alt": "Bolo confeitado com chantilly, chocolate ao leite e bombons, sobre prato de vidro",
+    "lqip": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAADwAwCdASoYABIAPu1gqE4ppSOiMBgMATAdiUATplvgG88HTfHj+hvoAPxdqsMSaitW66zjQLNJNYhb3H4+JsbvlLaEMkpmYKcsCM7dRgweH30Bydkw4C9D98LYxWdYjYU+h4FDtGYTfKKkvAA=",
+    "files": [
+      {
+        "file": "products/bolo-ferrero-480.avif",
+        "w": 480,
+        "ext": "avif",
+        "bytes": 26052
+      },
+      {
+        "file": "products/bolo-ferrero-480.webp",
+        "w": 480,
+        "ext": "webp",
+        "bytes": 26410
+      },
+      {
+        "file": "products/bolo-ferrero-480.jpg",
+        "w": 480,
+        "ext": "jpg",
+        "bytes": 34393
+      }
+    ]
+  },
+  "bolo-brigadeiro": {
+    "folder": "products",
+    "widths": [
+      480,
+      960,
+      1600
+    ],
+    "ratio": 1.0778,
+    "w": 1080,
+    "h": 1002,
+    "alt": "Bolo de chocolate coberto com brigadeiro e bombons, com o selo da Vila dos Doces",
+    "lqip": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAABQBQCdASoYABYAPu1qqVAppiOiqA1RMB2JQBOmUAArZME9RzTIwr/R61Gu8SQoPbBsvIAA+penZUqsAg6dFYQZHS/pdNlzIIEx3KE6dJi4wkTBDRFGZIBhnHyodRicu+ZLDnSdEoG5jslGUo0RO4BTJrF7UNd5P6OVf3SsRozLXgAA",
+    "files": [
+      {
+        "file": "products/bolo-brigadeiro-480.avif",
+        "w": 480,
+        "ext": "avif",
+        "bytes": 35473
+      },
+      {
+        "file": "products/bolo-brigadeiro-480.webp",
+        "w": 480,
+        "ext": "webp",
+        "bytes": 34698
+      },
+      {
+        "file": "products/bolo-brigadeiro-480.jpg",
+        "w": 480,
+        "ext": "jpg",
+        "bytes": 41936
+      },
+      {
+        "file": "products/bolo-brigadeiro-960.avif",
+        "w": 960,
+        "ext": "avif",
+        "bytes": 99292
+      },
+      {
+        "file": "products/bolo-brigadeiro-960.webp",
+        "w": 960,
+        "ext": "webp",
+        "bytes": 106632
+      },
+      {
+        "file": "products/bolo-brigadeiro-960.jpg",
+        "w": 960,
+        "ext": "jpg",
+        "bytes": 135513
+      }
+    ]
+  },
+  "bolo-brigadeiro-bolas": {
+    "folder": "products",
+    "widths": [
+      480,
+      960,
+      1600
+    ],
+    "ratio": 1.2486,
+    "w": 1080,
+    "h": 865,
+    "alt": "Bolo de brigadeiro com bolas de chocolate e raspas ao redor",
+    "lqip": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAADwBACdASoYABMAPu1qrVCppaQiqAqpMB2JQBOmY4/AAlQJWHceN2QTfuUjAzSWHXgA/rn9v9ENsD4UsU+qq5ZWEVX+aWbqYT8JV/uPrTaQml7p7kq1WOFKWMg77HaVJGuEy5hrw0C8rQSjbvMRgAAA",
+    "files": [
+      {
+        "file": "products/bolo-brigadeiro-bolas-480.avif",
+        "w": 480,
+        "ext": "avif",
+        "bytes": 34538
+      },
+      {
+        "file": "products/bolo-brigadeiro-bolas-480.webp",
+        "w": 480,
+        "ext": "webp",
+        "bytes": 33850
+      },
+      {
+        "file": "products/bolo-brigadeiro-bolas-480.jpg",
+        "w": 480,
+        "ext": "jpg",
+        "bytes": 39193
+      },
+      {
+        "file": "products/bolo-brigadeiro-bolas-960.avif",
+        "w": 960,
+        "ext": "avif",
+        "bytes": 96620
+      },
+      {
+        "file": "products/bolo-brigadeiro-bolas-960.webp",
+        "w": 960,
+        "ext": "webp",
+        "bytes": 101696
+      },
+      {
+        "file": "products/bolo-brigadeiro-bolas-960.jpg",
+        "w": 960,
+        "ext": "jpg",
+        "bytes": 129940
+      }
+    ]
+  },
+  "bolo-confete": {
+    "folder": "products",
+    "widths": [
+      480,
+      960,
+      1600
+    ],
+    "ratio": 0.8,
+    "w": 1080,
+    "h": 1350,
+    "alt": "Bolo confeitado com suspiros, morangos e raspas de chocolate",
+    "lqip": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAACwBQCdASoYAB4APu1mq08ppaOiKA1RMB2JZgCCcARaavJgyRn36BD0Jah87e2VwrC5cFKILsAA/qwZve29J6Vz29RgFtMwua/vXfJ0f/11dJ9lVKlNBzntHtTBl5EehRR31vFFVOmmqtjGpKSZEwHbRG2uDpCXiKkciGO2WlxReUjFT2WasiMUPU0Rf9WG7huYC+EqDYAAAA==",
+    "files": [
+      {
+        "file": "products/bolo-confete-480.avif",
+        "w": 480,
+        "ext": "avif",
+        "bytes": 61423
+      },
+      {
+        "file": "products/bolo-confete-480.webp",
+        "w": 480,
+        "ext": "webp",
+        "bytes": 57866
+      },
+      {
+        "file": "products/bolo-confete-480.jpg",
+        "w": 480,
+        "ext": "jpg",
+        "bytes": 67809
+      },
+      {
+        "file": "products/bolo-confete-960.avif",
+        "w": 960,
+        "ext": "avif",
+        "bytes": 166705
+      },
+      {
+        "file": "products/bolo-confete-960.webp",
+        "w": 960,
+        "ext": "webp",
+        "bytes": 174938
+      },
+      {
+        "file": "products/bolo-confete-960.jpg",
+        "w": 960,
+        "ext": "jpg",
+        "bytes": 215777
+      }
+    ]
+  },
+  "bolo-chocolate-granulado": {
+    "folder": "products",
+    "widths": [
+      480,
+      960
+    ],
+    "ratio": 0.8,
+    "w": 1080,
+    "h": 1350,
+    "alt": "Bolo de chocolate com granulado e cobertura espessa sobre prato",
+    "lqip": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAAAwBQCdASoYAB4APu1iq02ppaQiMBgMATAdiWIAnQAPodXord0QKTh79iCIutJ0WsOYQAD+xaX/orBlEy2YEKMSSnQYnCdGMK8SUtJNHHTZ4bvoZMECtS15viGFjxy9Z7wQnxfJQH3U+3IN9btgvbdh6GE+qtud3OV4sPgfMIftOo396prGqAAA",
+    "files": [
+      {
+        "file": "products/bolo-chocolate-granulado-480.avif",
+        "w": 480,
+        "ext": "avif",
+        "bytes": 43854
+      },
+      {
+        "file": "products/bolo-chocolate-granulado-480.webp",
+        "w": 480,
+        "ext": "webp",
+        "bytes": 43278
+      },
+      {
+        "file": "products/bolo-chocolate-granulado-480.jpg",
+        "w": 480,
+        "ext": "jpg",
+        "bytes": 50852
+      },
+      {
+        "file": "products/bolo-chocolate-granulado-960.avif",
+        "w": 960,
+        "ext": "avif",
+        "bytes": 117103
+      },
+      {
+        "file": "products/bolo-chocolate-granulado-960.webp",
+        "w": 960,
+        "ext": "webp",
+        "bytes": 126166
+      },
+      {
+        "file": "products/bolo-chocolate-granulado-960.jpg",
+        "w": 960,
+        "ext": "jpg",
+        "bytes": 160088
+      }
+    ]
+  },
+  "bolo-mesclado": {
+    "folder": "products",
+    "widths": [
+      480,
+      960
+    ],
+    "ratio": 1.25,
+    "w": 1080,
+    "h": 864,
+    "alt": "Bolo escuro com cobertura branca salpicada de chocolate",
+    "lqip": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAABQBQCdASoYABMAPu1cqU4ppKOiMBgMATAdiWoAnTM0NNAS+96SSFXEjwMFyIhJAnZ3gAAA+0TBsx76Rs4I8e7ImID6UqpsrZDm5GGpgYbymXtYMGNOzQxksm/vj6e3YiHMcwWgUulOxh08oa3lhLRgvL9TjdeqlqUggCium3FOE8a4Ms8DWmr2IgxyKgAA",
+    "files": [
+      {
+        "file": "products/bolo-mesclado-480.avif",
+        "w": 480,
+        "ext": "avif",
+        "bytes": 45206
+      },
+      {
+        "file": "products/bolo-mesclado-480.webp",
+        "w": 480,
+        "ext": "webp",
+        "bytes": 44760
+      },
+      {
+        "file": "products/bolo-mesclado-480.jpg",
+        "w": 480,
+        "ext": "jpg",
+        "bytes": 47101
+      },
+      {
+        "file": "products/bolo-mesclado-960.avif",
+        "w": 960,
+        "ext": "avif",
+        "bytes": 138738
+      },
+      {
+        "file": "products/bolo-mesclado-960.webp",
+        "w": 960,
+        "ext": "webp",
+        "bytes": 150232
+      },
+      {
+        "file": "products/bolo-mesclado-960.jpg",
+        "w": 960,
+        "ext": "jpg",
+        "bytes": 164138
+      }
+    ]
+  },
+  "pudim-ganache": {
+    "folder": "products",
+    "widths": [
+      480,
+      960,
+      1600
+    ],
+    "ratio": 0.8,
+    "w": 1080,
+    "h": 1350,
+    "alt": "Bolo de pudim com ganache de chocolate e biscoitos ao redor, em suporte de vidro",
+    "lqip": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAADQBACdASoYAB4APuVepk2pJSOiN/VYASAciUAVhBMowk2Dd+JX8voGkS1kVw6ywAD9zG+Ma09R/eDI5D431xubXX3AmfuRJoh0JaTuoVAFzfNPXkL3mNncuQNxVBpBcU53aoZhl9adzJ95K2AAAA==",
+    "files": [
+      {
+        "file": "products/pudim-ganache-480.avif",
+        "w": 480,
+        "ext": "avif",
+        "bytes": 18168
+      },
+      {
+        "file": "products/pudim-ganache-480.webp",
+        "w": 480,
+        "ext": "webp",
+        "bytes": 21932
+      },
+      {
+        "file": "products/pudim-ganache-480.jpg",
+        "w": 480,
+        "ext": "jpg",
+        "bytes": 33617
+      },
+      {
+        "file": "products/pudim-ganache-960.avif",
+        "w": 960,
+        "ext": "avif",
+        "bytes": 47858
+      },
+      {
+        "file": "products/pudim-ganache-960.webp",
+        "w": 960,
+        "ext": "webp",
+        "bytes": 60510
+      },
+      {
+        "file": "products/pudim-ganache-960.jpg",
+        "w": 960,
+        "ext": "jpg",
+        "bytes": 102827
+      }
+    ]
+  },
+  "torta-maca": {
+    "folder": "products",
+    "widths": [
+      480,
+      960,
+      1600
+    ],
+    "ratio": 0.7997,
+    "w": 1062,
+    "h": 1328,
+    "alt": "Torta rústica de maçã com farofa crocante e ameixas",
+    "lqip": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAADQBQCdASoYAB4APu1ur1KppiQiqAgBMB2JZACdMoR4wBDjuW1glME6US7QTD3HgxXjvwzIR3yeAP5+IWJUX7V9WmUz0sRguHHPvN3F58sgU8mY3JuU62efjn21FeVK6ATveRLBqRAuTJuyxhSzj8/rOuHdrhiYrbiNhsoAmxxuEOTDw/Tx4ZNFw0ltiTNZI+WWwizyFdYjtMjqcAAAAA==",
+    "files": [
+      {
+        "file": "products/torta-maca-480.avif",
+        "w": 480,
+        "ext": "avif",
+        "bytes": 51838
+      },
+      {
+        "file": "products/torta-maca-480.webp",
+        "w": 480,
+        "ext": "webp",
+        "bytes": 53528
+      },
+      {
+        "file": "products/torta-maca-480.jpg",
+        "w": 480,
+        "ext": "jpg",
+        "bytes": 61261
+      },
+      {
+        "file": "products/torta-maca-960.avif",
+        "w": 960,
+        "ext": "avif",
+        "bytes": 127300
+      },
+      {
+        "file": "products/torta-maca-960.webp",
+        "w": 960,
+        "ext": "webp",
+        "bytes": 140440
+      },
+      {
+        "file": "products/torta-maca-960.jpg",
+        "w": 960,
+        "ext": "jpg",
+        "bytes": 188078
+      }
+    ]
+  },
+  "torta-morango": {
+    "folder": "products",
+    "widths": [
+      480,
+      960,
+      1600
+    ],
+    "ratio": 0.8,
+    "w": 1080,
+    "h": 1350,
+    "alt": "Torta de morangos frescos sobre creme, com borda crocante",
+    "lqip": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAACQBQCdASoYAB4APulmqk2pJiQiMBgMASAdCWoAnTKEdbBs14con0dq5dyD1fBZmt9jw1dwwAD3QDwyG4ITJNxWXOLdzojNoZcRYk6VEzZ/IjSq1ER53mLO4/y/G8nFjcNWGocOkpyGaoT1uBc3gmb/n8wq9k3jsEiYsYaG1UTc6R4HB45CrQ3wq8PAAA==",
+    "files": [
+      {
+        "file": "products/torta-morango-480.avif",
+        "w": 480,
+        "ext": "avif",
+        "bytes": 31361
+      },
+      {
+        "file": "products/torta-morango-480.webp",
+        "w": 480,
+        "ext": "webp",
+        "bytes": 30952
+      },
+      {
+        "file": "products/torta-morango-480.jpg",
+        "w": 480,
+        "ext": "jpg",
+        "bytes": 42518
+      },
+      {
+        "file": "products/torta-morango-960.avif",
+        "w": 960,
+        "ext": "avif",
+        "bytes": 75238
+      },
+      {
+        "file": "products/torta-morango-960.webp",
+        "w": 960,
+        "ext": "webp",
+        "bytes": 81416
+      },
+      {
+        "file": "products/torta-morango-960.jpg",
+        "w": 960,
+        "ext": "jpg",
+        "bytes": 124747
+      }
+    ]
+  },
+  "torta-morango-alta": {
+    "folder": "products",
+    "widths": [
+      480,
+      960
+    ],
+    "ratio": 0.8,
+    "w": 1080,
+    "h": 1350,
+    "alt": "Torta de morango com creme e base crocante vista de cima",
+    "lqip": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAACwBQCdASoYAB4APu1kqU2ppaQiMBgMATAdiWoAnTKEf3cBiS3kSdOHQZDBLpWNn5chTLh0zdQAoZPCKepvo0/fPo7HjAU7634k5kouk7PkUriCS7tG/wAf42jIuyiwaJQwxxpJXbqrpq+CqvYxO2V+TFFIC3yf+OLafbdcUP7GK/TNbZiuPosmEMv9QPqDcVjOs2ZH6AAAAA==",
+    "files": [
+      {
+        "file": "products/torta-morango-alta-480.avif",
+        "w": 480,
+        "ext": "avif",
+        "bytes": 37471
+      },
+      {
+        "file": "products/torta-morango-alta-480.webp",
+        "w": 480,
+        "ext": "webp",
+        "bytes": 37146
+      },
+      {
+        "file": "products/torta-morango-alta-480.jpg",
+        "w": 480,
+        "ext": "jpg",
+        "bytes": 48855
+      },
+      {
+        "file": "products/torta-morango-alta-960.avif",
+        "w": 960,
+        "ext": "avif",
+        "bytes": 87386
+      },
+      {
+        "file": "products/torta-morango-alta-960.webp",
+        "w": 960,
+        "ext": "webp",
+        "bytes": 93550
+      },
+      {
+        "file": "products/torta-morango-alta-960.jpg",
+        "w": 960,
+        "ext": "jpg",
+        "bytes": 141451
+      }
+    ]
+  },
+  "bolo-fuba": {
+    "folder": "products",
+    "widths": [
+      480,
+      960
+    ],
+    "ratio": 0.8,
+    "w": 1080,
+    "h": 1350,
+    "alt": "Bolo de fubá com açúcar de confeiteiro e rosquinhas de chocolate ao lado",
+    "lqip": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAACQBQCdASoYAB4APuVgp02pJaOiMAwBIByJQBUkeB4AAgFRdbXTaPmQrMQ4sv67UYMJWDoIAAD7zLmuIZtYOZpmv9ux8OLNeKdeksDQNdIG0mVR5Z2qDEGU6Rv6GVgjUa7X/FzD5/7c8XNJksnNqnv27gEwn4LSkaxFD0yP8t2618L50dSaUnjpgAA=",
+    "files": [
+      {
+        "file": "products/bolo-fuba-480.avif",
+        "w": 480,
+        "ext": "avif",
+        "bytes": 39977
+      },
+      {
+        "file": "products/bolo-fuba-480.webp",
+        "w": 480,
+        "ext": "webp",
+        "bytes": 39730
+      },
+      {
+        "file": "products/bolo-fuba-480.jpg",
+        "w": 480,
+        "ext": "jpg",
+        "bytes": 47713
+      },
+      {
+        "file": "products/bolo-fuba-960.avif",
+        "w": 960,
+        "ext": "avif",
+        "bytes": 120066
+      },
+      {
+        "file": "products/bolo-fuba-960.webp",
+        "w": 960,
+        "ext": "webp",
+        "bytes": 125606
+      },
+      {
+        "file": "products/bolo-fuba-960.jpg",
+        "w": 960,
+        "ext": "jpg",
+        "bytes": 159012
+      }
+    ]
+  },
+  "salgados-assados": {
+    "folder": "products",
+    "widths": [
+      480,
+      960,
+      1600
+    ],
+    "ratio": 1.3537,
+    "w": 1619,
+    "h": 1196,
+    "alt": "Salgados dourados de festa em forminhas brancas sobre bandeja",
+    "lqip": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAACwBACdASoYABIAPu1mq02ppaQiMAgBMB2JagCdMuN2iIACJ5GBq0GAjGL5coFgAP7qluktEweo0+GO/LXYmVKHNLz6e+HftwWrKrQc71Gd/Mb+/Q2EGHREBC7QoCnaGZbKzjWgw3r+J3mdAAA=",
+    "files": [
+      {
+        "file": "products/salgados-assados-480.avif",
+        "w": 480,
+        "ext": "avif",
+        "bytes": 25297
+      },
+      {
+        "file": "products/salgados-assados-480.webp",
+        "w": 480,
+        "ext": "webp",
+        "bytes": 23952
+      },
+      {
+        "file": "products/salgados-assados-480.jpg",
+        "w": 480,
+        "ext": "jpg",
+        "bytes": 30815
+      },
+      {
+        "file": "products/salgados-assados-960.avif",
+        "w": 960,
+        "ext": "avif",
+        "bytes": 78304
+      },
+      {
+        "file": "products/salgados-assados-960.webp",
+        "w": 960,
+        "ext": "webp",
+        "bytes": 79592
+      },
+      {
+        "file": "products/salgados-assados-960.jpg",
+        "w": 960,
+        "ext": "jpg",
+        "bytes": 103900
+      },
+      {
+        "file": "products/salgados-assados-1600.avif",
+        "w": 1600,
+        "ext": "avif",
+        "bytes": 167012
+      },
+      {
+        "file": "products/salgados-assados-1600.webp",
+        "w": 1600,
+        "ext": "webp",
+        "bytes": 182788
+      },
+      {
+        "file": "products/salgados-assados-1600.jpg",
+        "w": 1600,
+        "ext": "jpg",
+        "bytes": 252945
+      }
+    ]
+  },
+  "balcao": {
+    "folder": "loja",
+    "widths": [
+      480,
+      960,
+      1600
+    ],
+    "ratio": 1.5006,
+    "w": 1346,
+    "h": 897,
+    "alt": "Balcão da Vila dos Doces com bolinhos cobertos de geleia e doces ao lado de uma bandeira de Portugal",
+    "lqip": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADwAwCdASoYABAAPu1iqU2ppaQiMAgBMB2JaACw7BnRgIS8e+eXakJAAMrewhBQXzOwxuFUoZaTqNG1nnQcSGbijZIgqO51BUFUps0/Y6+j5wD3ZZuJhyyTViwqJgAA",
+    "files": [
+      {
+        "file": "loja/balcao-480.avif",
+        "w": 480,
+        "ext": "avif",
+        "bytes": 36477
+      },
+      {
+        "file": "loja/balcao-480.webp",
+        "w": 480,
+        "ext": "webp",
+        "bytes": 33052
+      },
+      {
+        "file": "loja/balcao-480.jpg",
+        "w": 480,
+        "ext": "jpg",
+        "bytes": 40328
+      },
+      {
+        "file": "loja/balcao-960.avif",
+        "w": 960,
+        "ext": "avif",
+        "bytes": 84885
+      },
+      {
+        "file": "loja/balcao-960.webp",
+        "w": 960,
+        "ext": "webp",
+        "bytes": 83928
+      },
+      {
+        "file": "loja/balcao-960.jpg",
+        "w": 960,
+        "ext": "jpg",
+        "bytes": 114592
+      }
+    ]
+  },
+  "bolo-rosas": {
+    "folder": "loja",
+    "widths": [
+      480,
+      960
+    ],
+    "ratio": 0.8984,
+    "w": 920,
+    "h": 1024,
+    "alt": "Bolo de chocolate com rosas de chantilly, morangos e o selo da Vila dos Doces",
+    "lqip": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAADQBQCdASoYABsAPu1cq02ppKQiMBgMATAdiUATpm0QKQKi7eRKNMN73dTkyMrMvB7km2S6BBQAAP7LzAAj8esDQE4RRWk2j+ZrgrH8eyvKx6d0qMBgF66ylCbqJbSRoq9zMWuXPcH35ot06PtRxCzRg49rnhAHlbPfDxhl+c4HlcCMB8YHz/CuRkFbAQl+ydagAA==",
+    "files": [
+      {
+        "file": "loja/bolo-rosas-480.avif",
+        "w": 480,
+        "ext": "avif",
+        "bytes": 43877
+      },
+      {
+        "file": "loja/bolo-rosas-480.webp",
+        "w": 480,
+        "ext": "webp",
+        "bytes": 42212
+      },
+      {
+        "file": "loja/bolo-rosas-480.jpg",
+        "w": 480,
+        "ext": "jpg",
+        "bytes": 51562
+      }
+    ]
+  },
+  "feed-kit-chocolate": {
+    "folder": "instagram",
+    "widths": [
+      480,
+      960
+    ],
+    "ratio": 0.8,
+    "w": 1080,
+    "h": 1350,
+    "alt": "Post da Vila dos Doces: kit festa com bolo de chocolate e doces",
+    "lqip": "data:image/webp;base64,UklGRrYAAABXRUJQVlA4IKoAAACwBQCdASoYAB4APuVgpk2pJaOiN/VYASAciWwAnTKEcDeZ3NgP8iducK+RyaUcuHKWzAGy4x4A1t96FSTBK6Gvx2QJoq4u/ZpnYfrKZ/+bAZgNP3NVdsadBkSnRMVNwAfw9ONMX0JXHy0fz2soECIyCOOH/aSSOg1OMOPdh29NauS6QL/KqyKbz1QOZw1qdYPZ2THrygDJgkdyWsTmZKOrqjtP2U97nuUAAA==",
+    "files": [
+      {
+        "file": "instagram/feed-kit-chocolate-480.avif",
+        "w": 480,
+        "ext": "avif",
+        "bytes": 22755
+      },
+      {
+        "file": "instagram/feed-kit-chocolate-480.webp",
+        "w": 480,
+        "ext": "webp",
+        "bytes": 25230
+      },
+      {
+        "file": "instagram/feed-kit-chocolate-480.jpg",
+        "w": 480,
+        "ext": "jpg",
+        "bytes": 32830
+      },
+      {
+        "file": "instagram/feed-kit-chocolate-960.avif",
+        "w": 960,
+        "ext": "avif",
+        "bytes": 63491
+      },
+      {
+        "file": "instagram/feed-kit-chocolate-960.webp",
+        "w": 960,
+        "ext": "webp",
+        "bytes": 72944
+      },
+      {
+        "file": "instagram/feed-kit-chocolate-960.jpg",
+        "w": 960,
+        "ext": "jpg",
+        "bytes": 105346
+      }
+    ]
+  },
+  "feed-kit-arraia": {
+    "folder": "instagram",
+    "widths": [
+      480,
+      960
+    ],
+    "ratio": 0.8,
+    "w": 1080,
+    "h": 1350,
+    "alt": "Post da Vila dos Doces: kit festa junina",
+    "lqip": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAADwBACdASoYAB4APuFUpk2opCOiN/qoARAcCWwAnTKEfjD9szYcbR9X3FNFmSgXCKAA1vm0YR2k07S6KCXYSL5yCFNG++toD/+PgJHOSRao/9238jf1uZBhTaHPESAmRsYK+VPjExljlGaya/bahBRyZ2xW1Oo5peYSx86ciBiPDaktp/ZeBQN9dLf/z7p4PinP95K/IYAAAA==",
+    "files": [
+      {
+        "file": "instagram/feed-kit-arraia-480.avif",
+        "w": 480,
+        "ext": "avif",
+        "bytes": 34683
+      },
+      {
+        "file": "instagram/feed-kit-arraia-480.webp",
+        "w": 480,
+        "ext": "webp",
+        "bytes": 33518
+      },
+      {
+        "file": "instagram/feed-kit-arraia-480.jpg",
+        "w": 480,
+        "ext": "jpg",
+        "bytes": 42654
+      },
+      {
+        "file": "instagram/feed-kit-arraia-960.avif",
+        "w": 960,
+        "ext": "avif",
+        "bytes": 80052
+      },
+      {
+        "file": "instagram/feed-kit-arraia-960.webp",
+        "w": 960,
+        "ext": "webp",
+        "bytes": 86784
+      },
+      {
+        "file": "instagram/feed-kit-arraia-960.jpg",
+        "w": 960,
+        "ext": "jpg",
+        "bytes": 126883
+      }
+    ]
+  }
+}
